@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Monitor Dashboard - Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .project-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project-content h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .project-content h3 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #764ba2;
+        }
+        .project-content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .project-content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Server Monitor Dashboard</h1>
+        <p class="subtitle">Administration</p>
+    </header>
+
+    <div class="project-detail">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+        
+        <div class="project-content">
+            <h2>Overview</h2>
+            <p>A real-time server monitoring dashboard that provides comprehensive insights into server health, performance metrics, and system status with customizable alerts.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Real-time CPU, memory, and disk usage monitoring</li>
+                <li>Network traffic visualization</li>
+                <li>Customizable alert thresholds</li>
+                <li>Historical data tracking and analysis</li>
+                <li>Multi-server support</li>
+                <li>Email and SMS alerts</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Frontend: Vue.js, Chart.js</li>
+                <li>Backend: Node.js, WebSockets</li>
+                <li>Database: InfluxDB (time-series)</li>
+                <li>Monitoring: Prometheus</li>
+            </ul>
+
+            <h3>Outcome</h3>
+            <p>Improved server uptime by 99.9% through proactive monitoring and early detection of potential issues.</p>
+        </div>
+    </div>
+</body>
+</html>

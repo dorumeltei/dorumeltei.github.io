@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Backup System - Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .project-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project-content h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .project-content h3 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #764ba2;
+        }
+        .project-content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .project-content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Automated Backup System</h1>
+        <p class="subtitle">Automation</p>
+    </header>
+
+    <div class="project-detail">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+        
+        <div class="project-content">
+            <h2>Overview</h2>
+            <p>An automated backup solution designed for both databases and file systems with flexible scheduling and cloud storage integration. This system ensures data safety with minimal manual intervention.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Automated scheduling with cron-like syntax</li>
+                <li>Support for multiple databases (MySQL, PostgreSQL, MongoDB)</li>
+                <li>File system backup with incremental updates</li>
+                <li>Cloud integration (AWS S3, Google Cloud Storage)</li>
+                <li>Email notifications on backup completion/failure</li>
+                <li>Compression and encryption options</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li>Python for automation scripts</li>
+                <li>Shell scripting</li>
+                <li>AWS SDK</li>
+                <li>Docker for containerization</li>
+            </ul>
+
+            <h3>Outcome</h3>
+            <p>Reduced backup management time by 90% and ensured zero data loss incidents through reliable automated backups.</p>
+        </div>
+    </div>
+</body>
+</html>
