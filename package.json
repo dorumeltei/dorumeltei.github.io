@@ -1,0 +1,24 @@
+{
+  "name": "gitporfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorumeltei/dorumeltei.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dorumeltei/dorumeltei.github.io/issues"
+  },
+  "homepage": "https://github.com/dorumeltei/dorumeltei.github.io#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
