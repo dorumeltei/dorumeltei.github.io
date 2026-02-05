@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 #profile_pic {
- max-width: 30%;
+  max-width: 30%;
 }
